@@ -1,7 +1,7 @@
 
 var randomNumber = Math.floor(Math.random() * 10) + 1;
 
-var celeb = "images/find" + randomNumber + ".png";
+var celeb = "find" + randomNumber + ".png";
 
 document.querySelector("img").setAttribute("src" , celeb);
 
